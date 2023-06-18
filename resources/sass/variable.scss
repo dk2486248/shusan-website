@@ -1,0 +1,155 @@
+$WB-Black: #000000;
+$WB-White: #FFFFFF;
+$Light-Gray:#c6c6c6;
+$WB-Gray:#808080;
+$Pink-Red:#E3136F;
+
+%Title-40-B-Black{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-28-300-Black {
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-28-500-Black {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+
+%Title-28-B-Black {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-24-500-Black {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+
+%Title-18-B-Black {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+
+
+%Title-18-B-White {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-White;
+}
+
+%Title-18-N-White {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-White;
+}
+
+%Title-18-N-Black {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-18-400-Black {
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+
+%Value-18-N-Black{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Robort' !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-14-N-Black {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-14-N-White {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-White;
+}
+
+%Title-14-N-WbGray{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Gray;
+}
+
+// %Content-14-B-Black {
+//     font-size: 14px;
+//     font-weight: normal;
+//     font-family: 'Noto Sans TC', sans-serif !important;
+//     letter-spacing: 1px;
+//     color: $WB-Black;
+// }
+
+%Title-14-N-Black {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 1px;
+    color: $WB-Black;
+}
+
+
+%Title-14-B-LightGray {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $Light-Gray;
+}
+
+%Title-12-N-Red {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 1px;
+    color: red;
+}
