@@ -2061,7 +2061,7 @@ module.exports = {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-__webpack_require__(/*! ./module */ "./resources/js/module.js");
+// require('./module');
 
 /***/ }),
 
@@ -2098,16 +2098,6 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
-
-/***/ }),
-
-/***/ "./resources/js/module.js":
-/*!********************************!*\
-  !*** ./resources/js/module.js ***!
-  \********************************/
-/***/ (() => {
-
-
 
 /***/ }),
 

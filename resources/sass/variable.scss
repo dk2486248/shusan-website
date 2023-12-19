@@ -3,10 +3,82 @@ $WB-White: #FFFFFF;
 $Light-Gray:#c6c6c6;
 $WB-Gray:#808080;
 $Pink-Red:#E3136F;
+$Gold:#FFD700;
+$DarkYellow:#DAA520;
+
+$YellowGreen:#9ACD32;
+$Green:#3b9200;
+
+$CompanyGren:#A6A600;	
+
+%Title-120-B-White {
+    font-size: 120px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-White;
+}
+
+%Title-120-b-CompanyGreen{
+    font-size: 120px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $CompanyGren;
+}
+
+%Title-80-500-CompanyGreen{
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $CompanyGren;
+}
+
+%Title-48-B-Black{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
 
 %Title-40-B-Black{
     font-size: 40px;
     font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-40-B-CompanyGren{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $CompanyGren;
+}
+
+
+%Title-30-B-Black{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-30-300-Black{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+%Title-28-N-Black {
+    font-size: 28px;
+    font-weight: normal;
     font-family: 'Noto Sans TC', sans-serif !important;
     letter-spacing: 2px;
     color: $WB-Black;
@@ -37,6 +109,14 @@ $Pink-Red:#E3136F;
     color: $WB-Black;
 }
 
+%Title-24-N-Black {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
 %Title-24-500-Black {
     font-size: 24px;
     font-weight: 500;
@@ -45,6 +125,46 @@ $Pink-Red:#E3136F;
     color: $WB-Black;
 }
 
+%Title-24-B-Green {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $Green;
+}
+
+%Title-24-B-White {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-White;
+}
+
+%Title-24-B-DarkYellow {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $DarkYellow;
+}
+
+%Title-20-B-Black {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
+
+%Title-20-N-Green {
+    font-size: 20px !important;
+    font-weight: normal;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $Green !important;
+}
 
 %Title-18-B-Black {
     font-size: 18px;
@@ -88,7 +208,6 @@ $Pink-Red:#E3136F;
     color: $WB-Black;
 }
 
-
 %Value-18-N-Black{
     font-size: 18px;
     font-weight: normal;
@@ -96,6 +215,15 @@ $Pink-Red:#E3136F;
     letter-spacing: 2px;
     color: $WB-Black;
 }
+
+%Title-16-B-Black {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    letter-spacing: 2px;
+    color: $WB-Black;
+}
+
 
 %Title-14-N-Black {
     font-size: 14px;
@@ -152,4 +280,11 @@ $Pink-Red:#E3136F;
     font-family: 'Noto Sans TC', sans-serif !important;
     letter-spacing: 1px;
     color: red;
+}
+
+
+@mixin full_1920{
+    @media screen and (max-width: 1920px) {
+        @content;
+      }
 }

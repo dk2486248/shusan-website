@@ -1,0 +1,46 @@
+#chart-container {
+    font-family: Arial;
+    height: auto;
+    border: 1px solid #aaa;
+    overflow: auto;
+    text-align: center;
+  }
+  .orgchart .node .title{
+    background-color: rgb(45, 97, 146);
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .orgchart .node .content{
+    border-color: rgb(45, 97, 146);
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .orgchart .hierarchy::before{
+    border-top: 2px solid rgb(45, 97, 146);
+  }
+  .orgchart>ul>li>ul li>.node::before, .orgchart .node:not(:only-child)::after{
+    background-color: rgb(45, 97, 146);
+  }
+  .orgchart ul li .node.selected ,.orgchart ul li .node:hover{
+    background-color: transparent;
+  }
+  .orgchart .node .title .parentNodeSymbol::before {
+    display: none;
+  }
+  .orgchart .node .edge{
+    display: none;
+  }
+  .orgchart .node.focused{
+    background-color: transparent;
+  }
+  .orgchart{
+    background-image: unset;
+  }
+
+  // #myholder g ,::before{
+  //   display: none;
+  // }

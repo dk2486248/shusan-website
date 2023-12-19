@@ -1,11 +1,233 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap);
+#support_header_swiper .content h5, .swiper-slide .content h5 {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+#support_header_swiper .content h4, .swiper-slide .content h4 {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #A6A600;
+}
+
+#support_header_swiper .content h6, .swiper-slide .content h6 {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #A6A600;
+}
+
+#homePage_header h2 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.aboutMeSideBar .title a,
+.supportSideBar .title a,
+.envEngineerSideBar .title a, #EnvEngineer .support_page .content .content-title,
+#EnvService .support_page .content .content-title,
+#OtherService .support_page .content .content-title,
+#Incinerator .support_page .content .content-title,
+#atmosphere .support_page .content .content-title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.main-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #A6A600;
+}
+
+.aboutMeSideBar .active,
+.supportSideBar .active,
+.envEngineerSideBar .active, .aboutMeSideBar .item:hover,
+.supportSideBar .item:hover,
+.envEngineerSideBar .item:hover {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.aboutMeSideBar .item,
+.supportSideBar .item,
+.envEngineerSideBar .item, #boon #travPic {
+  font-size: 28px;
+  font-weight: normal;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+#EnvEngineer .support_page .content .support_item_subtitle,
+#EnvService .support_page .content .support_item_subtitle,
+#OtherService .support_page .content .support_item_subtitle,
+#Incinerator .support_page .content .support_item_subtitle,
+#atmosphere .support_page .content .support_item_subtitle, #aboutMe .content .content-text h4,
+#license .content .content-text h4,
+#philosophy .content .content-text h4,
+#organization .content .content-text h4,
+#company-organization-content .content .content-text h4,
+#envEngineer .content .content-text h4,
+#boon .content .content-text h4 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+#EnvEngineer .support_page .content .support_item .support_item_text,
+#EnvService .support_page .content .support_item .support_item_text,
+#OtherService .support_page .content .support_item .support_item_text,
+#Incinerator .support_page .content .support_item .support_item_text,
+#atmosphere .support_page .content .support_item .support_item_text {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.tablePr tr, #contact_us .btn-warning, #aboutMe .content .organization-content li,
+#license .content .organization-content li,
+#philosophy .content .organization-content li,
+#organization .content .organization-content li,
+#company-organization-content .content .organization-content li,
+#envEngineer .content .organization-content li,
+#boon .content .organization-content li, .nav-link {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+#aboutMe .content .content-title,
+#license .content .content-title,
+#philosophy .content .content-title,
+#organization .content .content-title,
+#company-organization-content .content .content-title,
+#envEngineer .content .content-title,
+#boon .content .content-title, .content-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #3b9200;
+}
+
+.tablePr .title, #contact_us .btn-secondary {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+#aboutMe .content .organization-content h5,
+#license .content .organization-content h5,
+#philosophy .content .organization-content h5,
+#organization .content .organization-content h5,
+#company-organization-content .content .organization-content h5,
+#envEngineer .content .organization-content h5,
+#boon .content .organization-content h5 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #DAA520;
+}
+
+#atmosphere .content-text h4 {
+  font-size: 20px !important;
+  font-weight: normal;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #3b9200 !important;
+}
+
+#aboutMe .content .content-text h6,
+#license .content .content-text h6,
+#philosophy .content .content-text h6,
+#organization .content .content-text h6,
+#company-organization-content .content .content-text h6,
+#envEngineer .content .content-text h6,
+#boon .content .content-text h6, #aboutMe .content .contentText h6,
+#license .content .contentText h6,
+#philosophy .content .contentText h6,
+#organization .content .contentText h6,
+#company-organization-content .content .contentText h6,
+#envEngineer .content .contentText h6,
+#boon .content .contentText h6, .dropdown-item, .content-text h6, .contentText h6 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
 #header #navbarNavAltMarkup .btn-outline-success span {
   font-size: 18px;
   font-weight: bold;
   font-family: "Noto Sans TC", sans-serif !important;
   letter-spacing: 2px;
   color: #FFFFFF;
+}
+
+#contact_us option,
+#contact_us select,
+#contact_us input {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+#aboutMe .content .content-text a,
+#license .content .content-text a,
+#philosophy .content .content-text a,
+#organization .content .content-text a,
+#company-organization-content .content .content-text a,
+#envEngineer .content .content-text a,
+#boon .content .content-text a, #aboutMe .content .contentText a,
+#license .content .contentText a,
+#philosophy .content .contentText a,
+#organization .content .contentText a,
+#company-organization-content .content .contentText a,
+#envEngineer .content .contentText a,
+#boon .content .contentText a, .content-text a, .contentText a {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+#homePage_header a {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Noto Sans TC", sans-serif !important;
+  letter-spacing: 2px;
+  color: #808080;
 }
 
 .row {
@@ -22,6 +244,121 @@ body {
   justify-content: center;
 }
 
+html #organiztion * {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+html #chartBox {
+  -webkit-user-drag: unset !important;
+  user-select: unset !important;
+  -moz-user-select: unset !important;
+  -webkit-user-select: unset !important;
+  -ms-user-select: unset !important;
+  pointer-events: unset !important;
+}
+html #chartBox * {
+  -webkit-user-drag: unset !important;
+  user-select: unset !important;
+  -moz-user-select: unset !important;
+  -webkit-user-select: unset !important;
+  -ms-user-select: unset !important;
+  pointer-events: unset !important;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-title .dir_companyGreen {
+  content: "";
+  width: 95%;
+  height: 10px;
+  background: #A6A600;
+  transform: skewX(-12deg);
+}
+
+.content-title {
+  padding-bottom: 15px;
+}
+
+.contentText {
+  margin-right: 20px;
+}
+.contentText h6 {
+  line-height: 2;
+}
+.contentText a {
+  line-height: 2;
+}
+
+.content-text h6 {
+  line-height: 2;
+}
+.content-text a {
+  line-height: 2;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+#chart-container {
+  font-family: Arial;
+  height: auto;
+  border: 1px solid #aaa;
+  overflow: auto;
+  text-align: center;
+}
+
+.orgchart .node .title {
+  background-color: rgb(45, 97, 146);
+  height: 30px;
+  width: 200px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.orgchart .node .content {
+  border-color: rgb(45, 97, 146);
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.orgchart .hierarchy::before {
+  border-top: 2px solid rgb(45, 97, 146);
+}
+
+.orgchart > ul > li > ul li > .node::before, .orgchart .node:not(:only-child)::after {
+  background-color: rgb(45, 97, 146);
+}
+
+.orgchart ul li .node.selected, .orgchart ul li .node:hover {
+  background-color: transparent;
+}
+
+.orgchart .node .title .parentNodeSymbol::before {
+  display: none;
+}
+
+.orgchart .node .edge {
+  display: none;
+}
+
+.orgchart .node.focused {
+  background-color: transparent;
+}
+
+.orgchart {
+  background-image: unset;
+}
+
 #header {
   background-color: black;
   width: 100vw;
@@ -29,6 +366,7 @@ body {
   justify-content: space-between;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 #header #navbarNavAltMarkup .btn-outline-success {
   border: 0;
@@ -37,6 +375,60 @@ body {
 #header #navbarNavAltMarkup .btn-outline-success:hover {
   background-color: #DAA520;
 }
+.navbar {
+  margin-bottom: 0px !important;
+  padding-left: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+.navbar .navbar-nav > .dropdown:nth-child(3) .dropdown-menu,
+.navbar .navbar-nav > .dropdown:nth-child(4) .dropdown-menu,
+.navbar .navbar-nav > .dropdown:nth-child(5) .dropdown-menu {
+  left: 0 !important;
+}
+.navbar a:hover {
+  text-decoration: none !important;
+  color: #A6A600 !important;
+}
+.navbar a {
+  background-color: transparent !important;
+}
+.navbar .dropdown-toggle::after {
+  display: none !important;
+}
+.navbar #service_dropDown {
+  padding-right: 10px !important;
+}
+
+.open a {
+  text-decoration: none !important;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.nav-link {
+  line-height: 1.2 !important;
+}
+
+.nav-item {
+  margin-left: 0.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item {
+  text-align: left;
+}
+
+.dropdown-menu {
+  left: -30px;
+}
+
 #homePageBody {
   width: 100vw;
 }
@@ -56,6 +448,515 @@ body {
   padding: 0;
 }
 
+#homePage_header {
+  padding-top: 60px;
+}
+#homePage_header .active {
+  color: #DAA520 !important;
+}
+#homePage_header a:hover {
+  color: #DAA520 !important;
+  cursor: pointer;
+}
+
+#aboutMe,
+#license,
+#philosophy,
+#organization,
+#company-organization-content,
+#envEngineer,
+#boon {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px 0px 200px;
+}
+#aboutMe #organiztion,
+#license #organiztion,
+#philosophy #organiztion,
+#organization #organiztion,
+#company-organization-content #organiztion,
+#envEngineer #organiztion,
+#boon #organiztion {
+  margin-left: 15vw;
+}
+#aboutMe #hr,
+#license #hr,
+#philosophy #hr,
+#organization #hr,
+#company-organization-content #hr,
+#envEngineer #hr,
+#boon #hr {
+  margin-left: 17vw;
+}
+@media screen and (max-width: 1920px) {
+  #aboutMe #organiztion,
+  #license #organiztion,
+  #philosophy #organiztion,
+  #organization #organiztion,
+  #company-organization-content #organiztion,
+  #envEngineer #organiztion,
+  #boon #organiztion {
+    margin-left: 8vw;
+  }
+}
+#aboutMe #aboutMeContent,
+#license #aboutMeContent,
+#philosophy #aboutMeContent,
+#organization #aboutMeContent,
+#company-organization-content #aboutMeContent,
+#envEngineer #aboutMeContent,
+#boon #aboutMeContent {
+  display: flex;
+  justify-content: flex-start;
+}
+#aboutMe .content,
+#license .content,
+#philosophy .content,
+#organization .content,
+#company-organization-content .content,
+#envEngineer .content,
+#boon .content {
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+#aboutMe .content .content-title,
+#license .content .content-title,
+#philosophy .content .content-title,
+#organization .content .content-title,
+#company-organization-content .content .content-title,
+#envEngineer .content .content-title,
+#boon .content .content-title {
+  padding-bottom: 15px;
+}
+#aboutMe .content .contentText,
+#license .content .contentText,
+#philosophy .content .contentText,
+#organization .content .contentText,
+#company-organization-content .content .contentText,
+#envEngineer .content .contentText,
+#boon .content .contentText {
+  margin-right: 20px;
+  width: 45%;
+}
+#aboutMe .content .contentText h6,
+#license .content .contentText h6,
+#philosophy .content .contentText h6,
+#organization .content .contentText h6,
+#company-organization-content .content .contentText h6,
+#envEngineer .content .contentText h6,
+#boon .content .contentText h6 {
+  line-height: 2;
+}
+#aboutMe .content .contentText a,
+#license .content .contentText a,
+#philosophy .content .contentText a,
+#organization .content .contentText a,
+#company-organization-content .content .contentText a,
+#envEngineer .content .contentText a,
+#boon .content .contentText a {
+  line-height: 2;
+}
+#aboutMe .content .content-text h4,
+#license .content .content-text h4,
+#philosophy .content .content-text h4,
+#organization .content .content-text h4,
+#company-organization-content .content .content-text h4,
+#envEngineer .content .content-text h4,
+#boon .content .content-text h4 {
+  line-height: 2;
+}
+#aboutMe .content .content-text h6,
+#license .content .content-text h6,
+#philosophy .content .content-text h6,
+#organization .content .content-text h6,
+#company-organization-content .content .content-text h6,
+#envEngineer .content .content-text h6,
+#boon .content .content-text h6 {
+  line-height: 2;
+}
+#aboutMe .content .content-text a,
+#license .content .content-text a,
+#philosophy .content .content-text a,
+#organization .content .content-text a,
+#company-organization-content .content .content-text a,
+#envEngineer .content .content-text a,
+#boon .content .content-text a {
+  line-height: 2;
+}
+#aboutMe .content .organization-content h5,
+#license .content .organization-content h5,
+#philosophy .content .organization-content h5,
+#organization .content .organization-content h5,
+#company-organization-content .content .organization-content h5,
+#envEngineer .content .organization-content h5,
+#boon .content .organization-content h5 {
+  line-height: 2;
+  margin-left: 30px;
+}
+#aboutMe .content .organization-content li,
+#license .content .organization-content li,
+#philosophy .content .organization-content li,
+#organization .content .organization-content li,
+#company-organization-content .content .organization-content li,
+#envEngineer .content .organization-content li,
+#boon .content .organization-content li {
+  line-height: 2;
+  margin-left: 30px;
+}
+#aboutMe .content #aboutMePic,
+#license .content #aboutMePic,
+#philosophy .content #aboutMePic,
+#organization .content #aboutMePic,
+#company-organization-content .content #aboutMePic,
+#envEngineer .content #aboutMePic,
+#boon .content #aboutMePic {
+  width: 524px;
+  height: 326px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+#aboutMe .content #coursePic_1,
+#license .content #coursePic_1,
+#philosophy .content #coursePic_1,
+#organization .content #coursePic_1,
+#company-organization-content .content #coursePic_1,
+#envEngineer .content #coursePic_1,
+#boon .content #coursePic_1 {
+  width: 524px;
+  height: 326px;
+  margin-top: 10px;
+}
+#aboutMe .content #coursePic_2,
+#license .content #coursePic_2,
+#philosophy .content #coursePic_2,
+#organization .content #coursePic_2,
+#company-organization-content .content #coursePic_2,
+#envEngineer .content #coursePic_2,
+#boon .content #coursePic_2 {
+  width: 524px;
+  height: 326px;
+  margin-top: 10px;
+}
+#aboutMe .content #coursePic_3,
+#license .content #coursePic_3,
+#philosophy .content #coursePic_3,
+#organization .content #coursePic_3,
+#company-organization-content .content #coursePic_3,
+#envEngineer .content #coursePic_3,
+#boon .content #coursePic_3 {
+  width: 524px;
+  height: 326px;
+  margin-top: 10px;
+}
+#aboutMe .content #coursePic_4,
+#license .content #coursePic_4,
+#philosophy .content #coursePic_4,
+#organization .content #coursePic_4,
+#company-organization-content .content #coursePic_4,
+#envEngineer .content #coursePic_4,
+#boon .content #coursePic_4 {
+  width: 524px;
+  height: 326px;
+  margin-top: 10px;
+}
+
+#aboutMe .course-content {
+  border-bottom: 2px dashed black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#company-organization-content {
+  padding: 60px 0px 0px 10vw;
+}
+#company-organization-content #sideBar {
+  margin-right: 5vw !important;
+}
+@media screen and (max-width: 1920px) {
+  #company-organization-content #sideBar {
+    margin-right: 0 !important;
+  }
+  #company-organization-content #organiztion {
+    margin-left: 4vw;
+  }
+}
+
+#license {
+  padding: 60px 0px 0px 0px;
+  width: 100%;
+}
+#license img {
+  padding-right: 3vw;
+  padding-bottom: 20px;
+  width: 30vw;
+}
+#license .content {
+  width: 100%;
+}
+#license .course-content,
+#license .justify-content-start {
+  width: 100%;
+}
+#license > .justify-content-start {
+  width: 93%;
+}
+@media screen and (max-width: 1920px) {
+  #license > .justify-content-start {
+    width: 95%;
+  }
+}
+
+#EnvEngineer #sideBar,
+#EnvService #sideBar,
+#OtherService #sideBar,
+#Incinerator #sideBar,
+#atmosphere #sideBar {
+  margin-right: 10%;
+}
+#EnvEngineer .support_page,
+#EnvService .support_page,
+#OtherService .support_page,
+#Incinerator .support_page,
+#atmosphere .support_page {
+  padding: 60px 0px 0px 0px !important;
+}
+#EnvEngineer .support_page .content,
+#EnvService .support_page .content,
+#OtherService .support_page .content,
+#Incinerator .support_page .content,
+#atmosphere .support_page .content {
+  width: 70vw;
+}
+#EnvEngineer .support_page .content .content-title,
+#EnvService .support_page .content .content-title,
+#OtherService .support_page .content .content-title,
+#Incinerator .support_page .content .content-title,
+#atmosphere .support_page .content .content-title {
+  padding-bottom: 40px;
+}
+#EnvEngineer .support_page .content .support_item,
+#EnvService .support_page .content .support_item,
+#OtherService .support_page .content .support_item,
+#Incinerator .support_page .content .support_item,
+#atmosphere .support_page .content .support_item {
+  padding: 10px;
+  width: 20vw;
+}
+#EnvEngineer .support_page .content .support_item img,
+#EnvService .support_page .content .support_item img,
+#OtherService .support_page .content .support_item img,
+#Incinerator .support_page .content .support_item img,
+#atmosphere .support_page .content .support_item img {
+  width: 200px;
+  height: 100px;
+}
+#EnvEngineer .support_page .content .support_item .support_item_text,
+#EnvService .support_page .content .support_item .support_item_text,
+#OtherService .support_page .content .support_item .support_item_text,
+#Incinerator .support_page .content .support_item .support_item_text,
+#atmosphere .support_page .content .support_item .support_item_text {
+  padding-top: 10px;
+  margin-top: 0px;
+  text-align: center;
+}
+#EnvEngineer .support_page .content .support_item .support_item_text:hover,
+#EnvService .support_page .content .support_item .support_item_text:hover,
+#OtherService .support_page .content .support_item .support_item_text:hover,
+#Incinerator .support_page .content .support_item .support_item_text:hover,
+#atmosphere .support_page .content .support_item .support_item_text:hover {
+  color: #A6A600;
+}
+#EnvEngineer .support_page .content .support_item_subtitle,
+#EnvService .support_page .content .support_item_subtitle,
+#OtherService .support_page .content .support_item_subtitle,
+#Incinerator .support_page .content .support_item_subtitle,
+#atmosphere .support_page .content .support_item_subtitle {
+  padding-top: 10px;
+  text-align: center;
+}
+#EnvEngineer .support_page .content .content-text,
+#EnvService .support_page .content .content-text,
+#OtherService .support_page .content .content-text,
+#Incinerator .support_page .content .content-text,
+#atmosphere .support_page .content .content-text {
+  white-space: nowrap;
+  padding-right: 10vw;
+}
+#EnvEngineer .support_page .content .swiper-wrapper,
+#EnvService .support_page .content .swiper-wrapper,
+#OtherService .support_page .content .swiper-wrapper,
+#Incinerator .support_page .content .swiper-wrapper,
+#atmosphere .support_page .content .swiper-wrapper {
+  background-color: transparent;
+  padding-top: 30px;
+}
+#EnvEngineer .support_page .content .swiper-slide,
+#EnvService .support_page .content .swiper-slide,
+#OtherService .support_page .content .swiper-slide,
+#Incinerator .support_page .content .swiper-slide,
+#atmosphere .support_page .content .swiper-slide {
+  background-color: transparent;
+  text-align: left;
+}
+#EnvEngineer .support_page .content .swiper,
+#EnvService .support_page .content .swiper,
+#OtherService .support_page .content .swiper,
+#Incinerator .support_page .content .swiper,
+#atmosphere .support_page .content .swiper {
+  width: 45%;
+  margin-left: unset;
+}
+#EnvEngineer .support_page .content .swiper img,
+#EnvService .support_page .content .swiper img,
+#OtherService .support_page .content .swiper img,
+#Incinerator .support_page .content .swiper img,
+#atmosphere .support_page .content .swiper img {
+  width: 800px;
+  height: 400px;
+}
+
+#atmosphere {
+  background-color: white;
+}
+#atmosphere .atmosphere_content img {
+  width: 100%;
+}
+#atmosphere .content-text {
+  white-space: unset !important;
+  padding-right: 0 !important;
+  width: 30vw;
+}
+#atmosphere .content-text h4 {
+  font-size: 20px !important;
+}
+#atmosphere .swiper {
+  margin-left: 50px !important;
+}
+#atmosphere .swiper-wrapper {
+  background-color: transparent;
+  padding-top: 30px;
+}
+#atmosphere .swiper-slide {
+  background-color: transparent;
+  text-align: left;
+}
+#atmosphere .swiper {
+  width: 45%;
+  margin-left: unset;
+}
+#atmosphere .swiper img {
+  width: 30vw;
+  height: 400px;
+}
+
+#boon {
+  background-color: #f5f5f5;
+}
+#boon #travPic {
+  color: #3b9200 !important;
+}
+#boon #travPic:hover {
+  color: #A6A600 !important;
+}
+#boon .cursor-pointer {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#contact_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#contact_us .card {
+  padding: 20px;
+  margin-top: 20px;
+}
+#contact_us option,
+#contact_us select,
+#contact_us input {
+  padding: 10px;
+}
+#contact_us textarea {
+  height: 250px;
+}
+#contact_us .content_box {
+  padding: 10px;
+}
+#contact_us .button {
+  padding: 20px;
+}
+#contact_us .btn-warning {
+  margin-right: 20px;
+}
+#atmosphere .shortR {
+  width: 35%;
+}
+
+.aboutMeSideBar,
+.supportSideBar,
+.envEngineerSideBar {
+  margin-right: 10%;
+  position: sticky;
+  top: 220px;
+  height: 300px;
+  left: 10vw;
+}
+.aboutMeSideBar a,
+.supportSideBar a,
+.envEngineerSideBar a {
+  white-space: nowrap;
+}
+.aboutMeSideBar .title,
+.supportSideBar .title,
+.envEngineerSideBar .title {
+  padding: 5px 2px;
+  border-bottom: #9ACD32 2px solid;
+}
+.aboutMeSideBar .item,
+.supportSideBar .item,
+.envEngineerSideBar .item {
+  padding: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.aboutMeSideBar .item:hover,
+.supportSideBar .item:hover,
+.envEngineerSideBar .item:hover {
+  background-color: #A6A600;
+}
+.aboutMeSideBar .active,
+.supportSideBar .active,
+.envEngineerSideBar .active {
+  background-color: #A6A600;
+}
+
+.supportSideBar {
+  margin-top: 85px;
+}
+
+.tablePr {
+  width: 30vw;
+  margin-bottom: 30px;
+}
+.tablePr td,
+.tablePr th {
+  border: 2px black solid;
+  text-align: center;
+}
+.tablePr tr td:first-child {
+  width: 70%;
+}
+.tablePr .title {
+  background-color: blue;
+}
+
+.folderPic {
+  width: 150px;
+  margin-right: 40px;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -70,14 +971,163 @@ body {
   align-items: center;
 }
 
-.swiper-slide img {
-  display: block;
+.swiper-slide .content {
+  width: 100vw;
+  height: 92.8vh;
+  background-size: cover;
+  padding-top: 25vh;
+  text-align: left;
+  padding-left: 100px;
+}
+.swiper-slide #aboutMe_content_swiper {
+  height: 58vh !important;
+  background-image: url("/images/index_4.png");
+}
+.swiper-slide #boon_swiper {
+  height: 570px;
+  background-image: url("/images/boon_1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#boon_bg {
+  background-image: url("/images/boon_1.jpg") !important;
+}
+
+#index_swiper .filter {
+  z-index: 2;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  position: absolute;
+  background: linear-gradient(to right, black 0.1%, transparent 15%);
+}
+#index_swiper #content_1 {
+  background-image: url("/images/index_1.png");
+}
+#index_swiper #content_2 {
+  background-image: url("/images/index_2.png");
+}
+#index_swiper #content_3 {
+  background-image: url("/images/index_3.png");
+}
+#index_swiper #content_4 {
+  background-image: url("/images/index_4.png");
+}
+
+#support_header_swiper .content {
+  width: 100vw;
+  height: 300px;
+  padding-top: 0;
+  background-size: cover;
+  text-align: left;
+  padding-left: unset;
+}
+#support_header_swiper #content_1 {
+  cursor: pointer;
+  background-image: url("/images/support_1.jpg");
+}
+#support_header_swiper #content_2 {
+  cursor: pointer;
+  background-image: url("/images/support_2.jpg");
+  background-position-y: bottom;
+}
+#support_header_swiper #content_3 {
+  cursor: pointer;
+  background-image: url("/images/support_3.jpg");
+}
+
+#envEngineer_swiper {
+  width: 100vw;
+}
+#envEngineer_swiper .content {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  padding-top: 10vh;
+}
+#envEngineer_swiper #content_1 {
+  background-image: url("/images/envEngineer_1.jpg");
+}
+#envEngineer_swiper #content_2 {
+  background-image: url("/images/envEngineer_2.jpg");
+}
+#envEngineer_swiper #content_3 {
+  background-image: url("/images/envEngineer_3.jpg");
+}
+#envEngineer_swiper #content_4 {
+  background-image: url("/images/envEngineer_4.png");
+}
+#envEngineer_swiper #content_5 {
+  background-image: url("/images/envEngineer_5.jpg");
+}
+
+#envService_swiper {
+  width: 100vw;
+}
+#envService_swiper .content {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  padding-top: 10vh;
+}
+#envService_swiper #content_1 {
+  background-image: url("/images/envService_1.jpg");
+}
+#envService_swiper #content_2 {
+  background-image: url("/images/envService_2.jpg");
+}
+#envService_swiper #content_3 {
+  background-image: url("/images/envService_3.jpg");
+}
+#envService_swiper #content_4 {
+  background-image: url("/images/envService_4.jpg");
+}
+#envService_swiper #content_5 {
+  background-image: url("/images/envService_5.jpg");
+}
+
+#otherService_swiper {
+  width: 100vw;
+}
+#otherService_swiper .content {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  padding-top: 10vh;
+}
+#otherService_swiper #content_1 {
+  background-image: url("/images/otherService_1.jpg");
+}
+#otherService_swiper #content_2 {
+  background-image: url("/images/otherService_2.png");
+}
+#otherService_swiper #content_3 {
+  background-image: url("/images/otherService_3.jpg");
+}
+#otherService_swiper #content_4 {
+  background-image: url("/images/otherService_4.JPG");
+}
+#otherService_swiper #content_5 {
+  background-image: url("/images/otherService_5.jpg");
 }
 
 .swiper-pagination {
   display: none;
+}
+
+.page_nav .page-link {
+  font-size: 28px;
+}
+
+.swal2-title {
+  font-size: 30px;
+}
+
+.swal2-html-container {
+  font-size: 28px;
+}
+
+.swal2-styled {
+  padding: 5px 15px !important;
+  font-size: 28px !important;
 }

@@ -1,7 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
-    "/js/bootstrap.js": "/js/bootstrap.js",
-    "/js/jquery-3.5.1.min.js": "/js/jquery-3.5.1.min.js",
     "/css/app.css": "/css/app.css",
-    "/css/swiper.css": "/css/swiper.css"
+    "/css/swiper.css": "/css/swiper.css",
+    "/js/jquery.min.js": "/js/jquery.min.js",
+    "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/go.js": "/js/go.js",
+    "/js/start.js": "/js/start.js"
 }

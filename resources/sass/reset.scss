@@ -1,28 +1,99 @@
-#header{
-    background-color: black;
-    width: 100vw;
-    padding:2vh 5vw;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    
-    #navbarNavAltMarkup{
+#header {
+  background-color: black;
+  width: 100vw;
+  padding: 2vh 5vw;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 
-        .btn-outline-success{
-            border: 0;
-            padding: 10px;
-            &:hover{
-                background-color: #DAA520;
-            }
-            span{
-                @extend %Title-18-B-White;
-            }
-        }
+  #navbarNavAltMarkup {
+
+    .btn-outline-success {
+      border: 0;
+      padding: 10px;
+
+      &:hover {
+        background-color: #DAA520;
+      }
+
+      span {
+        @extend %Title-18-B-White;
+      }
     }
+  }
 }
 
-#homePageBody{
-    width: 100vw;
+.navbar {
+  margin-bottom: 0px !important;
+
+  padding-left: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+
+  .navbar-nav>.dropdown:nth-child(3) .dropdown-menu,
+  .navbar-nav>.dropdown:nth-child(4) .dropdown-menu,
+  .navbar-nav>.dropdown:nth-child(5) .dropdown-menu {
+    left: 0 !important;
+  }
+
+  a:hover {
+    text-decoration: none !important;
+    color: $CompanyGren !important;
+  }
+
+  a {
+    background-color: transparent !important;
+  }
+
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+
+  #service_dropDown {
+
+    padding-right: 10px !important;
+  }
+}
+
+.open {
+  a {
+    text-decoration: none !important;
+  }
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.nav-link {
+  @extend %Title-24-500-Black;
+  line-height: 1.2 !important;
+}
+
+.nav-item {
+  margin-left: 0.5vw;
+  display: flex;
+  align-items: center
+}
+
+.dropdown-item {
+  @extend %Title-18-B-Black;
+  text-align: left;
+
+}
+
+.dropdown-menu {
+  left: -30px;
+}
+
+
+
+#homePageBody {
+  width: 100vw;
 }
 
 html,
@@ -40,6 +111,493 @@ body {
   padding: 0;
 }
 
+#homePage_header {
+  padding-top: 60px;
+
+  h2 {
+    @extend %Title-48-B-Black;
+  }
+
+  a {
+    @extend %Title-14-N-WbGray;
+  }
+
+  .active {
+    color: $DarkYellow !important;
+  }
+
+  a:hover {
+    color: $DarkYellow !important;
+    cursor: pointer;
+  }
+}
+
+
+
+///關於十山
+#aboutMe,
+#license,
+#philosophy,
+#organization,
+#company-organization-content,
+#envEngineer,
+#boon {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px 0px 200px;
+
+
+  #organiztion {
+    margin-left: 15vw;
+  }
+
+  #hr {
+    margin-left: 17vw;
+  }
+
+
+  @media screen and (max-width: 1920px) {
+    #organiztion {
+      margin-left: 8vw;
+    }
+  }
+
+  #aboutMeContent {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .content {
+
+    padding-top: 10px;
+    margin-bottom: 100px;
+
+    .content-title {
+      @extend %Title-24-B-Green;
+      padding-bottom: 15px;
+    }
+
+    .contentText {
+      margin-right: 20px;
+      width: 45%;
+
+      h6 {
+        @extend %Title-18-B-Black;
+        line-height: 2;
+      }
+
+      a {
+        @extend %Title-18-400-Black;
+        line-height: 2;
+      }
+
+    }
+
+    .content-text {
+      h4 {
+        @extend %Title-28-B-Black;
+        line-height: 2;
+      }
+
+      h6 {
+        @extend %Title-18-B-Black;
+        line-height: 2;
+      }
+
+      a {
+        @extend %Title-18-400-Black;
+        line-height: 2;
+      }
+    }
+
+    .organization-content {
+
+      h5 {
+        @extend %Title-24-B-DarkYellow;
+        line-height: 2;
+        margin-left: 30px;
+      }
+
+      li {
+        @extend %Title-24-500-Black;
+        line-height: 2;
+        margin-left: 30px;
+      }
+    }
+
+    #aboutMePic {
+      width: 524px;
+      height: 326px;
+      margin-top: 40px;
+      margin-left: 20px;
+    }
+
+    #coursePic_1 {
+      width: 524px;
+      height: 326px;
+      margin-top: 10px;
+    }
+
+    #coursePic_2 {
+      width: 524px;
+      height: 326px;
+      margin-top: 10px;
+    }
+
+    #coursePic_3 {
+      width: 524px;
+      height: 326px;
+      margin-top: 10px;
+    }
+
+    #coursePic_4 {
+      width: 524px;
+      height: 326px;
+      margin-top: 10px;
+    }
+  }
+}
+
+#aboutMe {
+  .course-content {
+    border-bottom: 2px dashed black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+#company-organization-content {
+  padding: 60px 0px 0px 10vw;
+
+  #sideBar {
+    margin-right: 5vw !important;
+  }
+  @include full_1920{
+    #sideBar {
+      margin-right: 0 !important;
+    }
+    #organiztion{
+      margin-left: 4vw;
+    }
+  }
+}
+
+
+
+#license {
+  padding: 60px 0px 0px 0px;
+  width: 100%;
+
+  img {
+    padding-right: 3vw;
+    padding-bottom: 20px;
+    width: 30vw;
+    // @media screen and (max-width: 1879px) {
+    //   width: 680px !important;
+    // }
+  }
+
+  .content {
+    width: 100%;
+
+    .justify-content-center {
+      // @media screen and (max-width: 1879px) {
+      //   justify-content: start !important;
+      // }
+    }
+  }
+
+  .course-content,
+  .justify-content-start {
+    width: 100%;
+  }
+
+
+
+  >.justify-content-start {
+    width: 93%;
+
+    @include full_1920 {
+      width: 95%;
+    }
+
+
+  }
+
+}
+
+///業務服務
+#EnvEngineer,
+#EnvService,
+#OtherService,
+#Incinerator,
+#atmosphere {
+
+  #sideBar {
+    margin-right: 10%;
+  }
+
+
+  .support_page {
+    padding: 60px 0px 0px 0px !important;
+
+    .content {
+      width: 70vw;
+
+      .content-title {
+        @extend %Title-40-B-Black;
+        padding-bottom: 40px;
+      }
+
+      .support_item {
+        padding: 10px;
+        width: 20vw;
+
+        img {
+          width: 200px;
+          height: 100px;
+        }
+
+        .support_item_text {
+          padding-top: 10px;
+          @extend %Title-24-N-Black;
+          margin-top: 0px;
+          text-align: center;
+
+          &:hover {
+            color: $CompanyGren;
+          }
+        }
+      }
+
+      .support_item_subtitle {
+        @extend %Title-28-B-Black;
+        padding-top: 10px;
+        text-align: center;
+      }
+
+      .content-text {
+        white-space: nowrap;
+        padding-right: 10vw;
+      }
+
+      .swiper-wrapper {
+        background-color: transparent;
+        padding-top: 30px;
+
+      }
+
+      .swiper-slide {
+        background-color: transparent;
+        text-align: left;
+      }
+
+      .swiper {
+        width: 45%;
+        margin-left: unset;
+
+        img {
+          width: 800px;
+          height: 400px;
+        }
+      }
+    }
+  }
+}
+
+#atmosphere {
+  background-color: white;
+
+  .atmosphere_content {
+    img {
+      width: 100%;
+    }
+  }
+
+  .content-text {
+    white-space: unset !important;
+    padding-right: 0 !important;
+    width: 30vw;
+
+    h4 {
+      font-size: 20px !important;
+
+      @extend %Title-20-N-Green;
+    }
+
+  }
+
+  .swiper {
+    margin-left: 50px !important;
+  }
+
+  .swiper-wrapper {
+    background-color: transparent;
+    padding-top: 30px;
+
+  }
+
+  .swiper-slide {
+    background-color: transparent;
+    text-align: left;
+  }
+
+  .swiper {
+    width: 45%;
+    margin-left: unset;
+
+    img {
+      width: 30vw;
+      height: 400px;
+    }
+  }
+}
+
+#boon {
+  background-color: #f5f5f5;
+
+  #travPic {
+    @extend %Title-28-N-Black;
+    color: $Green !important;
+
+    &:hover {
+      color: $CompanyGren !important;
+    }
+  }
+
+  .cursor-pointer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+//聯絡我們
+#contact_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  .card {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  option,
+  select,
+  input {
+    @extend %Title-18-N-Black;
+    padding: 10px;
+  }
+
+  textarea {
+    height: 250px;
+  }
+
+  .content_box {
+    padding: 10px;
+  }
+
+  .button {
+    padding: 20px;
+  }
+
+  .btn-warning {
+    @extend %Title-24-500-Black;
+    margin-right: 20px;
+  }
+
+  .btn-secondary {
+    @extend %Title-24-B-White;
+  }
+}
+
+#atmosphere {
+  .shortR {
+    width: 35%;
+  }
+}
+
+//測選單
+
+
+.aboutMeSideBar,
+.supportSideBar,
+.envEngineerSideBar {
+  margin-right: 10%;
+  position: sticky;
+  top: 220px;
+  height: 300px;
+  left: 10vw;
+
+  a {
+    white-space: nowrap;
+  }
+
+  .title {
+    padding: 5px 2px;
+    border-bottom: $YellowGreen 2px solid;
+
+    a {
+      @extend %Title-40-B-Black;
+    }
+  }
+
+  .item {
+    padding: 10px;
+    cursor: pointer;
+    @extend %Title-28-N-Black;
+    white-space: nowrap;
+  }
+
+  .item:hover {
+    background-color: $CompanyGren;
+    @extend %Title-30-B-Black;
+  }
+
+  .active {
+    background-color: $CompanyGren;
+    @extend %Title-30-B-Black;
+  }
+}
+
+.supportSideBar {
+  margin-top: 85px;
+}
+
+
+.tablePr {
+  width: 30vw;
+  margin-bottom: 30px;
+
+  tr {
+    @extend %Title-24-500-Black;
+
+  }
+
+  td,
+  th {
+    border: 2px black solid;
+    text-align: center;
+  }
+
+  tr {
+    td:first-child {
+      width: 70%;
+    }
+  }
+
+  .title {
+    @extend %Title-24-B-White;
+    background-color: blue;
+  }
+}
+
+.folderPic {
+  width: 150px;
+  margin-right: 40px;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -54,12 +612,233 @@ body {
   align-items: center;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.swiper-slide {
+
+  .content {
+    width: 100vw;
+    height: 92.8vh;
+    background-size: cover;
+    padding-top: 25vh;
+    text-align: left;
+    padding-left: 100px;
+
+    h4 {
+      @extend %Title-120-b-CompanyGreen;
+    }
+
+    h5 {
+      @extend %Title-120-B-White;
+    }
+
+    h6 {
+      @extend %Title-80-500-CompanyGreen;
+    }
+  }
+
+  #aboutMe_content_swiper {
+    height: 58vh !important;
+    background-image: url("/images/index_4.png");
+  }
+
+  #boon_swiper {
+    height: 570px;
+    background-image: url('/images/boon_1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
 }
-.swiper-pagination{
-    display: none;
+
+#boon_bg {
+  background-image: url('/images/boon_1.jpg') !important;
+}
+
+
+
+#index_swiper {
+  .filter {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to right, black 0.1%, transparent 15%);
+  }
+
+  #content_1 {
+    background-image: url("/images/index_1.png");
+  }
+
+  #content_2 {
+    background-image: url("/images/index_2.png");
+  }
+
+  #content_3 {
+    background-image: url("/images/index_3.png");
+  }
+
+  #content_4 {
+    background-image: url("/images/index_4.png");
+  }
+}
+
+//頂選單
+#support_header_swiper {
+
+  .content {
+    width: 100vw;
+    height: 300px;
+    padding-top: 0;
+    background-size: cover;
+
+    text-align: left;
+    padding-left: unset;
+
+    h4 {
+      @extend %Title-120-b-CompanyGreen;
+    }
+
+    h5 {
+      @extend %Title-120-B-White;
+
+    }
+
+    h6 {
+      @extend %Title-80-500-CompanyGreen;
+    }
+  }
+
+  #content_1 {
+    cursor: pointer;
+    background-image: url("/images/support_1.jpg");
+  }
+
+  #content_2 {
+    cursor: pointer;
+    background-image: url("/images/support_2.jpg");
+    background-position-y: bottom;
+  }
+
+  #content_3 {
+    cursor: pointer;
+    background-image: url("/images/support_3.jpg");
+  }
+
+}
+
+#envEngineer_swiper {
+  width: 100vw;
+
+  .content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    padding-top: 10vh;
+  }
+
+  #content_1 {
+    background-image: url("/images/envEngineer_1.jpg");
+  }
+
+  #content_2 {
+    background-image: url("/images/envEngineer_2.jpg");
+  }
+
+  #content_3 {
+    background-image: url("/images/envEngineer_3.jpg");
+  }
+
+  #content_4 {
+    background-image: url("/images/envEngineer_4.png");
+  }
+
+  #content_5 {
+    background-image: url("/images/envEngineer_5.jpg");
+  }
+}
+
+#envService_swiper {
+  width: 100vw;
+
+  .content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    padding-top: 10vh;
+  }
+
+  #content_1 {
+    background-image: url("/images/envService_1.jpg");
+  }
+
+  #content_2 {
+    background-image: url("/images/envService_2.jpg");
+  }
+
+  #content_3 {
+    background-image: url("/images/envService_3.jpg");
+  }
+
+  #content_4 {
+    background-image: url("/images/envService_4.jpg");
+  }
+
+  #content_5 {
+    background-image: url("/images/envService_5.jpg");
+  }
+}
+
+#otherService_swiper {
+  width: 100vw;
+
+  .content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    padding-top: 10vh;
+  }
+
+  #content_1 {
+    background-image: url("/images/otherService_1.jpg");
+  }
+
+  #content_2 {
+    background-image: url("/images/otherService_2.png");
+  }
+
+  #content_3 {
+    background-image: url("/images/otherService_3.jpg");
+  }
+
+  #content_4 {
+    background-image: url("/images/otherService_4.JPG");
+  }
+
+  #content_5 {
+    background-image: url("/images/otherService_5.jpg");
+  }
+
+}
+
+.swiper-pagination {
+  display: none;
+}
+
+//頁碼
+.page_nav {
+  .page-link {
+    font-size: 28px;
+  }
+}
+
+.swal2-title {
+  font-size: 30px;
+}
+
+.swal2-html-container {
+  font-size: 28px;
+}
+
+.swal2-styled {
+  padding: 5px 15px !important;
+  font-size: 28px !important;
 }
